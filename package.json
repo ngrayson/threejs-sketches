@@ -1,0 +1,16 @@
+{
+  "name": "getting-started-with-threejs",
+  "version": "1.0.0",
+  "description": "learn threejs by building some projects and also typescript",
+  "main": "index.ts",
+  "scripts": {
+    "test": "test",
+    "tsc": "tsc"
+  },
+  "author": "nick graysohn",
+  "license": "MIT",
+  "dependencies": {
+    "@types/three": "^0.175.0",
+    "typescript": "^5.8.2"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "rootDir": "./",
+    "outDir": "./built",
+    "baseUrl": ".",
+    "allowJs": true,
+    "target": "es2022",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "esModuleInterop": true,
+    "declaration": true,
+    "sourceMap": true,
+    "declarationDir": "./built",
+    "noImplicitAny": false,
+    "pretty": true,
+    "strict": true,
+    "alwaysStrict": true,
+    "skipLibCheck": true,
+    "types": []
+  },
+  "include": [
+    "./**/*"
+  ],
+  "exclude": [
+    "./node_modules/**/*",
+    "./built/**/*",
+    "./db/**/*",
+    "./coverage/**/*"
+  ]
+}
